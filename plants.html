@@ -1,6 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <style>
+    td{
+      color:blue;
+    }
+    table-hover {
+      background-color: red;
+    }
+  </style>
   <title>Planting bootstrap </title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -27,7 +35,7 @@
 </div>  
 </nav>
 <h1>Plants by Aravind Ranganathan</h1>
-<div class="container"></div>
+<div class="container">
 <div class="row">
 <div class="col-sm-2">R</div>  
 <div class="col-sm-2">A</div>
@@ -35,13 +43,15 @@
 <div class="col-sm-2">G</div>    
 <div class="col-sm-2">T</div>
 <div class="col-sm-2">H</div>
-<div class="row"></div>  
+</div>
+<div class="row"> 
 <div class="col-md">Rose</div>
 <div class="col-md">Abelia</div> 
 <div class="col-md">Nepeta</div>  
 <div class="col-md">Gerbera</div> 
 <div class="col-md">Tulip</div>     
-<div class="col-md">Hibiscus</div>                                                                                                        
+<div class="col-md">Hibiscus</div>  
+</div>                                                                                                      
 </div>
 <p>The plant name breaks first due to the longer length of the element name.As plant name is medium sized while letter name is small sized.</p>    
 <div class="container">
@@ -103,8 +113,8 @@
   <td>Hirakud Reservoir</td>
   </tr>
   </tbody>
-</table>
 </div>
+</table>
 <div class="btn-toolbar">
 <div class="btn-group" aria-label="Plant label with success status">  
 <button type="button" class="btn btn-success">R</button>
@@ -126,5 +136,22 @@
 <li><a class="dropdown-item" href="advanced.html">Advanced Link</a></li>  
 </ul>
 </div>
+<form>
+<div class="form-group">
+<label for="exampleInputEmail1" class="form-level">Email address</label>
+<input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+<div id="emailHelp" class="form-text">We will not share email address with anyone else.</div> 
+</div>
+<div class="form-group">
+<label for="Plant" class="form-level">Plant</label> 
+<input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+<div id="emailHelp" class="form-text">Enter your plant</div>
+</div> 
+<div class="form-check">
+<input type="checkbox" class="form-check-input" id="exampleCheck1">
+<label class="form-check-level" for="exampleCheck1">Sign up for newsletter?</label>  
+</div>
+<button type="submit" class="btn btn-primary">Submit</button>
+</form>
 </body>
 </html>
