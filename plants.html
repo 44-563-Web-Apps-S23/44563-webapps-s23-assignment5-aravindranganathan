@@ -2,11 +2,18 @@
 <html lang="en">
 <head>
   <style>
-    td{
+    td {
       color:blue;
     }
     table-hover {
       background-color: red;
+    }
+    .card {
+      float:left;
+    }
+    .caption-top {
+      font-size: 20px;
+      text-align: center;
     }
   </style>
   <title>Planting bootstrap </title>
@@ -30,7 +37,9 @@
 <li class="nav-link and active">
 <a class="nav-link" href="basic.html">Basic</a></li>
 <li class="nav-link and active">
-<a class="nav-link" href="advanced.html">Advanced</a></li>  
+<a class="nav-link" href="advanced.html">Advanced</a></li> 
+<li class="nav-link and active">
+<a class="nav-link" href="plants.html">Plants</a></li>  
 </ul>  
 </div>  
 </nav>
@@ -66,7 +75,7 @@
 </div>
 <div>
 <table style="text-align:center" class="table table-striped-columns table-hover table-striped">
-<caption>Table containing Plant,Mountain,Lake</caption> 
+<caption class="caption-top">Table containing Plant,Mountain,Lake</caption> 
   <thead style="color:red;background-color:blueviolet;">
   <tr> 
   <th>Letter</th>
@@ -131,10 +140,12 @@
 </div>
 <div class="dropdown" role="group">
 <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">Initials</button>  
-<ul class="dropdown-menu">
+<div class="dropdown-menu">
+<ul style="list-style-type: none;">
 <li><a class="dropdown-item" href="basic.html">Basic Link</a></li>
 <li><a class="dropdown-item" href="advanced.html">Advanced Link</a></li>  
 </ul>
+</div>
 </div>
 <form>
 <div class="form-group">
@@ -153,5 +164,31 @@
 </div>
 <button type="submit" class="btn btn-primary">Submit</button>
 </form>
+<div>
+<div class="card" style="float:left;width: 25rem;">
+  <img src="Aramaki_rose_park04s2400.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+  <h5 class="card-title">Rose</h5>
+  <p class="card-text">A rose is either a woody perennial flowering plant of the genus Rosa,in the family Rosaceae,or the flower it bears. There are over three hundred species and tens of thousands of cultivars.They form a group of plants that can be erect shrubs, climbing, or trailing, with stems that are often armed with sharp prickles.Their flowers vary in size and shape and are usually large and showy, in colours ranging from white through yellows and reds. Most species are native to Asia, with smaller numbers native to Europe, North America, and northwestern Africa.Species, cultivars and hybrids are all widely grown for their beauty and often are fragrant. Roses have acquired cultural significance in many societies. </p>
+  <a href="https://en.wikipedia.org/wiki/Rose" class="btn btn-primary">Takes us to Rose page</a>
+</div>
+</div>
+<div class="card" style="float:left;width: 25rem;">
+  <img src="tulips-multicolored.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+  <h5 class="card-title">Tulip</h5>
+  <p class="card-text"> Tulips normally begin emerging from the ground in late winter or early spring. If unseasonably mild weather causes premature growth in winter, the danger is not as great as it may seem. Tulips are quite cold tolerant. If freezing winter temperatures return, it may delay growth, however. Snow is actually helpful in this case, as it can insulate the foliage from extreme cold. </p>
+  <a href="https://www.almanac.com/plant/tulips" class="btn btn-primary">Takes us to Tulip page</a>
+</div>
+</div>
+<div class="card" style="float:left;width: 25rem;">
+  <img src="1527091860274.jpeg" class="card-img-top" alt="...">
+  <div class="card-body">
+  <h5 class="card-title">Hibiscus</h5>
+  <p class="card-text">A hibiscus plant is a perennial flowering shrub that is native to Asia. They are fast-growing and known best for their large, colorful blooms that come in a wide variety of hues.They can live for many years with the right care, and some varieties can reach heights of up to 10 feet or more.At a very high level, there are two different types: cold hardy and tropical. </p>
+  <a href="https://getbusygardening.com/hibiscus-care/" class="btn btn-primary">Takes us to Hibiscus page</a>
+</div>  
+</div>
+</div>
 </body>
 </html>
